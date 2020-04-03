@@ -1,7 +1,7 @@
 # MSPInspire Website
 Made in .net/Blazor, completely open source
 
-[![Follow SalmanMKC on Twitter](https://img.shields.io/twitter/follow/SalmanMKC.svg?label=Follow%20SalmanMKCe%20on%20Twitter&style=social)](https://twitter.com/intent/follow?screen_name=SalmanMKC)
+[![Follow SalmanMKC on Twitter](https://img.shields.io/twitter/follow/SalmanMKC.svg?label=Follow%20SalmanMKC%20on%20Twitter&style=social)](https://twitter.com/intent/follow?screen_name=SalmanMKC)
 [![Follow DawoodIddris on Twitter](https://img.shields.io/twitter/follow/DawoodIddris.svg?label=Follow%20DawoodIddris%20on%20Twitter&style=social)](https://twitter.com/intent/follow?screen_name=DawoodIddris)
 [![Follow MSPInspire on Twitter](https://img.shields.io/twitter/follow/MSPInspire.svg?label=Follow%20MSPInspire%20on%20Twitter&style=social)](https://twitter.com/intent/follow?screen_name=MSPInspire)
 

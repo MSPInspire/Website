@@ -1,0 +1,17 @@
+# Add 'repo' label to any root file changes
+repo:
+  - ./*
+
+  - package/core/*
+  - package/core/**/*
+
+
+  - src/**/*.spec.js
+  
+  label1:
+  - example/**/*
+
+css: wwwroot/css/*
+pages: Pages/*
+data: Data/*
+shared: Shared/*

@@ -7,12 +7,12 @@ namespace BlazorApp1.Data
 {
     public class Team
     {
-        public Team(string firstname, string secondname, string picture, string subtitle)
+        public Team(string firstname, string secondname, string subtitle, string picture)
         {
             FirstName = firstname;
             SecondName = secondname;
-            Picture = picture;
             Subtitle = subtitle;
+            Picture = picture;
         }
 
         private string firstName;
@@ -32,14 +32,15 @@ namespace BlazorApp1.Data
         }
 
         private string subtitle;
+        
 
         public string Subtitle
         {
             get { return subtitle; }
             set { subtitle = value; }
         }
-       
 
+        private string picture;
         public string Picture
         {
             get { return picture; }

@@ -1,12 +1,18 @@
 ﻿@page "/"
 @using BlazorApp1.Data
 
+@{
+    Teams teams = new Teams();
+
+}
+
 <h1>MSPInspire</h1>
 
 <sub>Learn, Share and Inspire!</sub>
 
-@{
-    Teams teams = new Teams();
-
-
+@foreach (var member in teams.teams)
+{
+    <h1>@member.FirstName</h1>
 }
+
+

@@ -2,8 +2,36 @@
 @using BlazorApp1.Data
 
 
-<h1>MSPInspire</h1>
+@{
+Teams teams = new Teams();
+}
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-12">
 
 
+            <h1>MSPInspire</h1>
+
+            <sub>Learn, Share and Inspire!</sub>
+            <div class="flex">
+                @foreach (var member in teams.teams)
+                {
+                <div>
+                    <h1>@member.FirstName @member.SecondName</h1>
+                    <img src="@member.Picture" class="rounded"/>
+                    <sub>@member.Subtitle</sub>
+                </div>
+                }
 
 
+            </div>
+
+
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,39 @@
+﻿@page "/videos"
+@inject IVideoStore VideosStore
+
+<h1 style="text-align: center"> MSPInspire Videos </h1>
+
+<BlazorApp1.Components.SearchBox placeholder="Search videos..." SearchQueryChanged="Search" />
+<hr />
+
+@if (videos == null)
+{
+    <p>Loading videos...</p>
+}
+else
+{
+    <ul class="video-list">
+        @foreach (var video in videos)
+        {
+            <li class="video-list-item">
+                <a href="@video.Source">
+                    <BlazorApp1.Components.VideoCard Video="video" />
+                </a>
+            </li>
+        }
+    </ul>
+}
+
+@code {
+    IEnumerable<Video> videos;
+
+    protected override async Task OnInitializedAsync()
+    {
+        videos = await VideosStore.GetVideos();
+    }
+
+    async Task Search(string query)
+    {
+        videos = await VideosStore.GetVideos(query);
+    }
+}

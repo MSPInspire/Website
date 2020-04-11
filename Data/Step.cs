@@ -7,6 +7,21 @@ namespace BlazorApp1.Data
 {
     public class Step
     {
+		public Step(string a, string b, string c)
+		{
+			instruction = a;
+			img = b;
+			caption = c;
+		}
+		public Step(string a, string b, string c, int d)
+		{
+			instruction = a;
+			img = b;
+			caption = c;
+			figure = d;
+		}
+		
+
 		private string instruction;
 
 		public string Instruction
@@ -31,6 +46,13 @@ namespace BlazorApp1.Data
 			set { caption = value; }
 		}
 
+		private int figure;
+
+		public int Figure
+		{
+			get { return figure; }
+			set { figure = value; }
+		}
 
 	}
 }

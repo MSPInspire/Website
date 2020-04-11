@@ -36,9 +36,33 @@
     "image": "http://i3.ytimg.com/vi/obpV2sG2KXQ/maxresdefault.jpg"
   },
   "7": {
-    "id": "6",
+    "id": "7",
     "name": "The Power Within: Empowering More Problem Solvers",
     "source": "https://youtu.be/QQGDDS4q1pE",
     "image": "http://i3.ytimg.com/vi/QQGDDS4q1pE/maxresdefault.jpg"
+  },
+  "8": {
+    "id": "8",
+    "name": "Cyber Security (Kick start your Career)",
+    "source": "https://youtu.be/TMa621RYRi8",
+    "image": "http://i3.ytimg.com/vi/TMa621RYRi8/maxresdefault.jpg"
+  },
+  "9": {
+    "id": "9",
+    "name": "MSP Virtual Call December 29th",
+    "source": "https://youtu.be/IhawWayB-3k",
+    "image": "http://i3.ytimg.com/vi/IhawWayB-3k/maxresdefault.jpg"
+  },
+  "10": {
+    "id": "10",
+    "name": "MSP Virtual Call December 28th",
+    "source": "https://youtu.be/5rrDKQSce_k",
+    "image": "http://i3.ytimg.com/vi/5rrDKQSce_k/maxresdefault.jpg"
+  },
+  "11": {
+    "id": "11",
+    "name": "Introduction to Cloud Computing, 3 demos!",
+    "source": "https://youtu.be/biQXGm_6SRU",
+    "image": "http://i3.ytimg.com/vi/biQXGm_6SRU/maxresdefault.jpg"
   }
 }

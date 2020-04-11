@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace BlazorApp1.Data
+namespace BlazorApp1
 {
-    public class JsonVideosStore
+    public class JsonVideosStore : IVideoStore
     {
         IDictionary<string, Video> videos;
         InMemorySearchProvider searchProvider;

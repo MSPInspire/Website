@@ -1,0 +1,11 @@
+﻿<div class="video-card">
+    <img src="@Video.Image" />
+    <div class="video-card-body">
+        <h2 style="text-align: center" class="video-card-name">@Video.Name</h2>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public Video Video { get; set; }
+}

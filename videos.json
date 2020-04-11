@@ -1,0 +1,44 @@
+{
+  "1": {
+    "id": "1",
+    "name": "MSPInspire Podcast EP #01 - Applied to the MSP Program with Pablo Veramendi",
+    "source": "https://youtu.be/84iBC6DG2iY",
+    "image": "http://i3.ytimg.com/vi/84iBC6DG2iY/maxresdefault.jpg"
+  },
+  "2": {
+    "id": "2",
+    "name": "Convolutional Neural Networks with Vijaya Gajanan",
+    "source": "https://youtu.be/vaZchbiT8A8",
+    "image": "http://i3.ytimg.com/vi/vaZchbiT8A8/maxresdefault.jpg"
+  },
+  "3": {
+    "id": "3",
+    "name": "Live with Samit Saini",
+    "source": "https://youtu.be/O_xloOXg1kE",
+    "image": "http://i3.ytimg.com/vi/O_xloOXg1kE/maxresdefault.jpg"
+  },
+  "4": {
+    "id": "4",
+    "name": "MSPInspire #WomanCan",
+    "source": "https://youtu.be/Pc6AIpeImO0",
+    "image": "http://i3.ytimg.com/vi/Pc6AIpeImO0/maxresdefault.jpg"
+  },
+  "5": {
+    "id": "5",
+    "name": "Create your first Power App: Empowering More Problem Solvers",
+    "source": "https://youtu.be/Qysz-LuBxWk",
+    "image": "http://i3.ytimg.com/vi/Qysz-LuBxWk/maxresdefault.jpg"
+  },
+  "6": {
+    "id": "6",
+    "name": "Games Emerge Conference 2020 – Microsoft Student Partners | Inspire Vlog",
+    "source": "https://youtu.be/obpV2sG2KXQ",
+    "image": "http://i3.ytimg.com/vi/obpV2sG2KXQ/maxresdefault.jpg"
+  },
+  "7": {
+    "id": "6",
+    "name": "The Power Within: Empowering More Problem Solvers",
+    "source": "https://youtu.be/QQGDDS4q1pE",
+    "image": "http://i3.ytimg.com/vi/QQGDDS4q1pE/maxresdefault.jpg"
+  }
+}

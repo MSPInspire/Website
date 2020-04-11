@@ -153,3 +153,85 @@ app {
         display: block;
     }
 }
+
+/* Video stuff */
+.search {
+    display: flex;
+    align-items: center;
+    max-width: 30em;
+    margin: 0 auto;
+    background: #F5F5F5;
+    opacity: 0.78;
+    color: #666666;
+    border: 1px solid #999999;
+    border-radius: 2px;
+    padding: 6px 12px;
+}
+
+    .search input {
+        flex: 1;
+        font-family: Open Sans;
+        font-size: 14px;
+        line-height: 20px;
+        border: none;
+        background: inherit;
+    }
+
+        .search input:focus {
+            outline: none;
+        }
+
+.video-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18em, 1fr));
+    grid-gap: 20px;
+}
+
+.video-list-item {
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+    .video-list-item a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .video-list-item:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    }
+
+.video-card {
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 12px;
+}
+
+    .video-card img {
+        width: 100%;
+    }
+
+.video-card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 8px 0px 8px;
+}
+
+.video-card-name {
+    margin: 1rem 0 1rem 0;
+}
+
+.video-card-source {
+    margin-top: 0;
+}
+
+.video-card .star-rating {
+    margin-top: auto;
+    justify-content: flex-end;
+}
+

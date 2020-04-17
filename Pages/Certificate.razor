@@ -1,62 +1,94 @@
 ﻿@page "/certificate"
 @using BlazorApp1.Data
 
+<main role="main" class="container">
+    <div class="d-flex align-items-center p-3 my-3 rounded shadow-sm">
+        <div class="lh-100">
+            <h1 class="mb-0 lh-100">Get your certificate</h1>
+            <h6>You can share your certificate on social media, save it or print it. Here's how to save or print it.</h6>
+        </div>
+    </div>
 
-<h1>Get your certificate</h1>
-<br>
-You can share your certificate on social media, save it or print it. Here's how to save or print it.
-<br>
-    Step 1: Visit https://studentpartners.microsoft.com/
-<br>
-    Step 2: Log in (to avoid any issues log in with the account that you signed up to the Student Partner Program with, not your student partner account)
-<br>
-<img src="/Assets/Certificate/SignIn.jpg" width="720" />
-<br>
-<sub style="font-style:italic">Figure 1: Log in in the top right</sub>
-<br>
-<br>
-    Step 3: Click Student Partner account (see figure 2)
-<br>
-<img src="/Assets/Certificate/StndPartnerAccount.jpg" width="300" />
-<br>
-<sub style="font-style:italic">Figure 2: By clicking on the profile icon in the top right, you can reveal this menu which shows a "Student Partner Account" hyperlink, click that</sub>
-<br>
-<br>
-
-    Step 4: Click "Print your MSP Certificate (see figure 2)
-<br>
-<img src="/Assets/Certificate/PrintYourMspCertificate.jpg" width="300" />
-<br>
-<sub style="font-style:italic">Figure 3: This page should be shown to you, where you can click "Print your MSP Certificate"</sub>
-<br>
-<br>
-    Step 5: Choose print on the certificate after right clicking, or use Control P (Windows)/Cmd P (Mac os), see figure 3
-<br>
-<img src="/Assets/Certificate/RightClickPrint.jpg" width="300" />
-<br>
-<sub style="font-style:italic">Figure 4, right click the certificate and choose Print</sub>
-<br>
-<br>
-    Step 6: Choose save to PDF on Windows or Microsoft Print to PDF, see figures 4 and 5
-
-
-<br>
-<img src="/Assets/Certificate/SaveAsPDF.jpg" width="300" />
-<br>
-<sub style="font-style:italic">Figure 5: Save as PDF</sub>
-<br>
-<br>
-<img src="/Assets/Certificate/MSPrintToPDF.jpg" width="300" />
-<br>
-<sub style="font-style:italic">Figure 6: Micorosft Print to PDF</sub>
-<br>
-<br>
-    Step 6: Save your PDF to which ever location you desire, see figure 7
-<br>
-    Step 7: Success!
-
-
-
-
-
-
+    <div class="my-3 p-3 bg-white rounded shadow-sm">
+        <h6 class="border-bottom border-gray pb-2 mb-0">Step 1</h6>
+        <div class="media text-muted pt-3">
+            <p class="media-body pb-3 mb-0 lh-125 border-bottom">
+                Visit <a href="https://studentpartners.microsoft.com/" target="_blank">https://studentpartners.microsoft.com/</a>
+            </p>
+        </div>
+    </div>
+    <div class="my-3 p-3 bg-white rounded shadow-sm">
+        <h6 class="border-bottom border-gray pb-2 mb-0">Step 2</h6>
+        <div class="media text-muted pt-3">
+            <div class="col-lg-5">
+                <p class="media-body pb-3 mb-0 lh-125 border-bottom">
+                    Log in (to avoid any issues log in with the account that you signed up to the Student Partner Program with, not your student partner account).
+                </p>
+            </div>
+            <div class="col-lg-7">
+                <img src="/Assets/Certificate/SignIn.jpg" style="width: 100%" />
+            </div>
+        </div>
+    </div>
+    <div class="my-3 p-3 bg-white rounded shadow-sm">
+        <h6 class="border-bottom border-gray pb-2 mb-0">Step 3</h6>
+        <div class="media text-muted pt-3">
+            <div class="col-lg-5">
+                <p class="media-body pb-3 mb-0 lh-125 border-bottom">
+                    Click Student Partner Account.
+                </p>
+            </div>
+            <div class="col-lg-7">
+                <img src="/Assets/Certificate/StndPartnerAccount.jpg" style="width: 100%" />
+            </div>
+        </div>
+    </div>
+    <div class="my-3 p-3 bg-white rounded shadow-sm">
+        <h6 class="border-bottom border-gray pb-2 mb-0">Step 4</h6>
+        <div class="media text-muted pt-3">
+            <div class="col-lg-5">
+                <p class="media-body pb-3 mb-0 lh-125 border-bottom">
+                    Click "Print your MSP Certificate".
+                </p>
+            </div>
+            <div class="col-lg-7">
+                <img src="/Assets/Certificate/PrintYourMspCertificate.jpg" style="width:100%" />
+            </div>
+        </div>
+    </div>
+    <div class="my-3 p-3 bg-white rounded shadow-sm">
+        <h6 class="border-bottom border-gray pb-2 mb-0">Step 5</h6>
+        <div class="media text-muted pt-3">
+            <div class="col-lg-5">
+                <p class="media-body pb-3 mb-0 lh-125 border-bottom">
+                    Choose print on the certificate after right clicking, or use
+                    <h5><span class="badge badge-secondary">Ctrl + P</span><span style="font-size:15px;">&nbsp;(Windows)</span></h5>
+                    <h5><span class="badge badge-secondary">Cmd + P</span><span style="font-size:15px;">&nbsp;(Mac OS)</span></h5>
+                </p>
+            </div>
+            <div class="col-lg-7">
+                <img src="/Assets/Certificate/RightClickPrint.jpg" style="width:100%" />
+            </div>
+        </div>
+    </div>
+    <div class="my-3 p-3 bg-white rounded shadow-sm">
+        <h6 class="border-bottom border-gray pb-2 mb-0">Step 6</h6>
+        <div class="media text-muted pt-3">
+            <div class="col-lg-12">
+                <p class="media-body pb-3 mb-0 lh-125 border-bottom">
+                    Choose save to PDF on Windows or Microsoft Print to PDF and save your PDF to which ever location you desire.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="my-3 p-3 rounded shadow-sm" style="background-color: #8BE457;color: white;">
+        <h6 class="border-bottom border-gray pb-2 mb-0">Step 7</h6>
+        <div class="media text-muted pt-3">
+            <div class="col-lg-12" style="color:white">
+                <p class="media-body pb-3 mb-0 lh-125 border-bottom">
+                    Success!
+                </p>
+            </div>
+        </div>
+    </div>
+</main>
